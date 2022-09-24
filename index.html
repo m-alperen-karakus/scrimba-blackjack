@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +8,18 @@
     <link rel="stylesheet" href="index.css">
     <title>Document</title>
 </head>
-<body>
-    <script src="index.js"> </script>
 
+<body>
+    
+    <h1>Blackjack</h1>
+    <p id="startText">Wanna play a round</p>
+    <button id="start" onClick="start()">Start a game</button>
+    <p id="cardsSum">Summary of your desk: </p>
+    <button onclick="pullCard()" id="newCard">Pull a new card</button>
+    <button onclick="pullFromTable()" id="pull">Pull from table</button>
+    
+    
+    <script src="index.js"> </script>
 </body>
+
 </html>
